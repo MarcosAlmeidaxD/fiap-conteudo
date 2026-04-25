@@ -1,12 +1,6 @@
-# File Processing Report
+# Cap_12_OCR_RevFinal.pdf
 
-**Source folder:** `Fase 6/entregaveis/referencia`  
-**Processed:** 2026-04-25  
-**Files analysed:** 2
-
----
-
-## Cap_12_OCR_RevFinal.pdf `PDF`
+**File type:** PDF | **Processed:** 2026-04-25
 
 ## TL;DR
 A technical deep dive into OCR, bridging the gap between basic OpenCV text detection and advanced Transformer-based recognition.
@@ -20,11 +14,3 @@ A technical deep dive into OCR, bridging the gap between basic OpenCV text detec
 
 ## Worth Knowing
 Modern OCR has shifted from simple pattern matching to a Generative AI approach; models like TrOCR "describe" the text they see, which makes them much better at handling blurry newspaper clippings or distorted fonts than older libraries like Tesseract.
-
----
-
-## Challenge_FIAP_apresentacao.pdf `PDF`
-
-[Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
-
----
