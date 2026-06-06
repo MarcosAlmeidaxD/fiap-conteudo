@@ -1,7 +1,7 @@
 # File Processing Report
 
 **Source folder:** `Fase 6`  
-**Processed:** 2026-06-01  
+**Processed:** 2026-06-06  
 **Files analysed:** 19
 
 ---
@@ -52,6 +52,10 @@ Investors filter out 90% of what they hear as "threats" or "noise." If your pitc
 
 ## 2TSCOR Challenge MaterDei 2oSem 2025 v2 RevFinal.pdf `PDF`
 
+# 2TSCOR Challenge MaterDei 2oSem 2025 v2 RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
+
 ## TL;DR
 MaterDei is challenging you to build a predictive engine that fixes their appointment "no-show" problem for the 2025/2026 academic year.
 
@@ -68,9 +72,14 @@ MaterDei wants to know why patients book exams but never show up. You aren't jus
 - Identify external public data (traffic, weather, or socio-economic maps) to layer over MaterDei’s internal datasets for better predictive accuracy.
 - Ensure every team member keeps a full copy of all project files—the guidelines specifically warn that "lost files" won't excuse a missed deadline.
 
+
 ---
 
 ## Cap 01 - INTELIGÊNCIA ARTIFICIAL NA ERA DO E-COMMERCE RevFinal (1).pdf `PDF`
+
+# Cap 01 - INTELIGÊNCIA ARTIFICIAL NA ERA DO E-COMMERCE RevFinal (1).pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 This is the project brief for building and pitching a sales prediction model for the "Melhores Compras" e-commerce challenge.
@@ -83,6 +92,7 @@ This is the project brief for building and pitching a sales prediction model for
 
 ## Worth Knowing
 The board cares more about *why* you chose the model and *how* you explain it than the raw metrics; dropping a jargon-heavy score like "accuracy 0.26" without context is a guaranteed way to fail the presentation.
+
 
 ---
 
@@ -112,6 +122,10 @@ The coding part is the easy bit; even a basic linear regression might work. The 
 
 ## Cap 02 - Metodologia de validação cruzada e processo de seleção de variáveis RevFinal.pdf `PDF`
 
+# Cap 02 - Metodologia de validação cruzada e processo de seleção de variáveis RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
+
 ## TL;DR
 A technical deep dive into balancing model accuracy with simplicity using cross-validation and penalized regressions (Ridge/Lasso) in Python.
 
@@ -123,6 +137,7 @@ A technical deep dive into balancing model accuracy with simplicity using cross-
 
 ## Worth Knowing
 The guide argues that complex models are often business liabilities; it prioritizes "simplicity" (regularization) not just for performance, but to make results explainable to non-technical stakeholders. If your model is too hard to explain to a client, it's probably overfitted.
+
 
 ---
 
@@ -150,6 +165,10 @@ LightGBM is the efficiency king in this guide; it typically matches XGBoost’s 
 
 ## Cap 04 - Análise Multivariada de Dados RevFinal.pdf `PDF`
 
+# Cap 04 - Análise Multivariada de Dados RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
+
 ## TL;DR
 This guide breaks down Principal Component Analysis (PCA) for turning messy, correlated data columns into clean, manageable indices using Python.
 
@@ -163,9 +182,14 @@ This guide breaks down Principal Component Analysis (PCA) for turning messy, cor
 ## Worth Knowing
 PCA is specifically for reducing column dimensions; if you need to group similar rows or individuals, you should switch to Cluster Analysis instead. Also, if your variables aren't highly correlated from the start, this technique won't actually provide much benefit.
 
+
 ---
 
 ## Cap 05 - Análise Multivariada de Dados - Análise de Cluster com Python RevFinal.pdf `PDF`
+
+# Cap 05 - Análise Multivariada de Dados - Análise de Cluster com Python RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 A practical manual for performing unsupervised machine learning (Cluster Analysis) in Python, bridging the gap between statistical theory and RFM business applications.
@@ -180,9 +204,14 @@ A practical manual for performing unsupervised machine learning (Cluster Analysi
 ## Worth Knowing
 The workflow suggests a hybrid approach: use Hierarchical clustering and Dendrograms first to find the ideal number of groups, then apply K-Means to actually assign the individuals. This balances visual intuition with computational efficiency.
 
+
 ---
 
 ## Cap 06 - Redes neurais multicamadas RevFinal.pdf `PDF`
+
+# Cap 06 - Redes neurais multicamadas RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 This guide explains how to move beyond simple linear models to Multilayer Perceptrons (MLP) to solve complex, non-linear problems like XOR and image recognition.
@@ -197,9 +226,14 @@ This guide explains how to move beyond simple linear models to Multilayer Percep
 ## Worth Knowing
 Weight initialization (He vs. Xavier) is the "make or break" step here; pick the wrong one and your gradients will likely explode or vanish before the first epoch finishes. The note also emphasizes that while more layers add power, they drastically increase the risk of overfitting (addressed in Section 5).
 
+
 ---
 
 ## Cap 07 - Práticas de Redes neurais multicamadas RevFinal.pdf `PDF`
+
+# Cap 07 - Práticas de Redes neurais multicamadas RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 A hands-on technical guide for implementing Multilayer Perceptron (MLP) neural networks in Python to solve real-world regression and classification problems.
@@ -213,6 +247,7 @@ A hands-on technical guide for implementing Multilayer Perceptron (MLP) neural n
 
 ## Worth Knowing
 This guide follows a strict iterative logic: always build a simple baseline model first. It uses Google Colab for environment setup, making it easy to copy-paste the logic directly into a notebook for immediate testing.
+
 
 ---
 
@@ -240,6 +275,10 @@ Deep Learning eliminates the need for manual feature engineering by learning hie
 
 ## Cap 08 - Pipeline de Deep Learning RevFinal.pdf `PDF`
 
+# Cap 08 - Pipeline de Deep Learning RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
+
 ## TL;DR
 A comprehensive technical guide to building Deep Learning pipelines, covering major architectures (CNN, RNN, GAN) and hands-on TensorFlow implementation.
 
@@ -253,9 +292,14 @@ A comprehensive technical guide to building Deep Learning pipelines, covering ma
 ## Worth Knowing
 The core takeaway is the shift in "feature engineering"—while traditional Machine Learning requires manual feature extraction, Deep Learning uses hierarchical layers to learn these patterns automatically from raw, unstructured data. Keep an eye on the code snippets for the "flattening" operation; it’s a common stumbling block when moving from image data to dense layers.
 
+
 ---
 
 ## Cap 09 - Redes neurais convolucionais (CNNs) RevFinal.pdf `PDF`
+
+# Cap 09 - Redes neurais convolucionais (CNNs) RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 A technical deep-dive into building and optimizing Convolutional Neural Networks (CNNs) in Python, covering everything from pixel math to Transfer Learning.
@@ -269,6 +313,7 @@ A technical deep-dive into building and optimizing Convolutional Neural Networks
 
 ## Worth Knowing
 CNNs mimic the biological visual cortex by extracting features hierarchically—it’s helpful to think of the first layers as "edge detectors" while deeper layers identify complex shapes and objects. The included code specifically uses the VGG16 architecture, which is a classic choice for learning how to swap out classification heads for custom tasks.
+
 
 ---
 
@@ -340,6 +385,10 @@ The guide highlights that LSTMs are the go-to fix for "memory loss" in deep netw
 
 ## HOW TO - Google Colab RevFinal.pdf `PDF`
 
+# HOW TO - Google Colab RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
+
 ## TL;DR
 A beginner’s guide to migrating from crash-prone Excel sheets to Python-powered data analysis in Google Colab.
 
@@ -352,9 +401,14 @@ A beginner’s guide to migrating from crash-prone Excel sheets to Python-powere
 ## Worth Knowing
 The guide specifically flags `encoding='latin1'` and semicolon separators—essential settings to prevent your import from breaking if the original Excel file has special characters or European formatting. It’s designed as a "safety net" for when your local machine starts hitting the "blue screen of death" due to massive datasets.
 
+
 ---
 
 ## HOW TO - Usando GPU no Colab RevFinal.pdf `PDF`
+
+# HOW TO - Usando GPU no Colab RevFinal.pdf
+
+**File type:** PDF | **Processed:** 2026-06-01
 
 ## TL;DR
 Quick guide for swapping the default Colab CPU for a T4 GPU to speed up model training.
@@ -367,5 +421,6 @@ Quick guide for swapping the default Colab CPU for a T4 GPU to speed up model tr
 
 ## Worth Knowing
 Because the environment starts completely "clean" after the swap, you must re-run all setup cells and re-upload any local data files every time you toggle the hardware accelerator.
+
 
 ---
